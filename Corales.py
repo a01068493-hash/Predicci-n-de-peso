@@ -11,7 +11,7 @@ Esta aplicación utiliza **Machine Learning** para predecir el impacto del calen
 en los arrecifes de coral, alineado con el **ODS 14: Vida Submarina**.
 """)
 # Insertamos una imagen
-st.image("corales.png", caption="Impacto del calentamiento global en los arrecifes de coral.")
+st.image("Corales.png", caption="Impacto del calentamiento global en los arrecifes de coral.")
 
 
 # Definimos cómo ingresará los datos el usuario
