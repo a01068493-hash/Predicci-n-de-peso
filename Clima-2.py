@@ -21,7 +21,7 @@ st.header("Año")
   # Límite inferior: 24°C. Es el límite inferior donde los arrecifes tropicales suelen estar cómodos
   # Límite superior: 35°C. La mayoría de los corales mueren o se blanquean totalmente mucho antes de llegar a esa temperatura
   # Valor inicial: 28°C. En muchos arrecifes, a partir de los 28.5°C o 29°C comienza el estrés térmico severo
-temp_input = st.sidnumber_input("Año", 1880.0, 2026.0, 2020.0)
+temp_input = st.number_input("Año", 1880.0, 2026.0, 2020.0)
 
 # Cargamos el archivo con los datos (.csv)
 df =  pd.read_csv('Temperatura.csv', encoding='latin-1')
