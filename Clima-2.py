@@ -43,4 +43,4 @@ prediccion = b0 + b1[0]*temp_input
 
 # Presentamos loa resultados
 st.subheader('Temperatura')
-st.write(f'La temperatura de ese año es {prediccion:.2f}°')
+st.write(f'La temperatura de ese año es {prediccion:.2f}C°')
