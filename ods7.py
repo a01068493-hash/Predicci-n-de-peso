@@ -49,7 +49,7 @@ Trabajaremos con el archivo Energia_eolica_ODS7.csv, que contiene registros de p
 
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
+import streamlit as st
 
 df = pd.read_csv('ene.csv')
 df
