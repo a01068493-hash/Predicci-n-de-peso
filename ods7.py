@@ -51,7 +51,7 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 
-df = pd.read_csv('ene.csv')
+df = pd.read_csv('ene2.csv')
 df
 
 print("--- Primeros registros del Dataset ---\n")
