@@ -45,8 +45,8 @@ st.subheader('Eficiencia energetica')
 st.write(f'El nivel de energía es: {prediccion:.2f} Wkh')
 
 if prediccion < 500:
-        st.success("Eficiencia baja")
+        st.warning("Eficiencia baja")
 elif prediccion < 3000:
-        st.warning("Alta eficiencia")
+        st.success("Alta eficiencia")
 else:
         st.error("Muy alta eficiencia")
