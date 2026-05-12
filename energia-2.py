@@ -34,4 +34,4 @@ if prediccion < 55:
 elif prediccion < 82:
         st.warning("Eficiencia moderada")
 else:
-        st.succes("Muy alta eficiencia")
+        st.success("Muy alta eficiencia")
