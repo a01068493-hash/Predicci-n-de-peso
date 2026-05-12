@@ -29,9 +29,9 @@ prediccion = b0 + b1[0]*temp_input
 st.subheader('Eficiencia energética')
 st.write(f'El nivel de energía es: {prediccion:.2f} Wkh')
 
-if prediccion < 360:
+if prediccion < 55:
         st.error("Eficiencia baja")
-elif prediccion < 410:
+elif prediccion < 82:
         st.warning("Eficiencia moderada")
 else:
         st.succes("Muy alta eficiencia")
